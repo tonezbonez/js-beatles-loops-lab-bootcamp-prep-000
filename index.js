@@ -17,10 +17,9 @@ let beatles = 0
 
 function iLoveTheBeatles(number){
   var love = new Array();
-
   do {
-    love[number]= `I love the Beatles!`
-number ++
+    love.push("I love the Beatles!")
+    number++
   }while (number > 15)
   return love
 }
